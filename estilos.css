@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    min-width: none;
+    min-height: none;
+}
+
+header {
+    background-color: #B10F2E;
+    color: #FDFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 50px 30% 65%;
+    column-gap: 20px;
+    width: 100%;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+}
+#LOGO_CAMA{
+    width: 100%;
+    filter: invert();
+    margin-left: 20px;
+    padding: 5px;
+}
+#NOMBRE_LOGO{
+    font-weight: 600;
+    padding: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#OPS{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#OP1, #OP2, #OP3{
+    padding: 15px;
+    border: none solid #FDFFFF;
+    border-radius: 15px;
+    width: auto;
+    height: 15px;
+    background-color: #FDFFFF;
+    transition: box-shadow ease-out .2s;
+    transition: background-color ease-out .1s;
+    text-decoration: none;
+    color: black;
+}
+#OP1:hover, #OP2:hover, #OP3:hover{
+    box-shadow: 0px 0px 10px -2px rgb(255, 255, 255);
+    transition: box-shadow ease-in .2s;
+}
+#OP1:active, #OP2:active, #OP3:active{
+    background-color: #ebecec;
+    transition: background-color ease-in .1s;
+}
+section {
+    width: 80%;
+    float: left;
+    background-color: #280000;
+    padding: 15px;
+    color: #FDFFFF;
+}
+aside#der {
+    width: 20%;
+    float: left;
+    background-color: #570000;
+    border-left: 0px solid white;
+    padding: 5px;
+    color: #FDFFFF;
+}
+
+aside#izq {
+    width: 20%;
+    float: left;
+    background-color: #570000;
+    border-right: 0px solid white;
+    padding: 5px;
+    color: #FDFFFF;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #B10F2E;
+    color: #FDFFFF;
+}
+.contenedor {
+    display: flex;
+}
+/*https://coolors.co/fdffff-b10f2e-570000-280000-de7c5a*/
