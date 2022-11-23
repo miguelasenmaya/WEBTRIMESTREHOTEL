@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: #B10F2E;
+    color: #FDFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 5% 30% 65%;
+    column-gap: 20px;
+    
+}
+#LOGO_CAMA{
+    width: 100%;
+    filter: invert();
+    margin-left: 10px;
+}
+#NOMBRE_LOGO{
+    font-weight: 600;
+    padding: 15px;
+    padding-left: 20px;
+}
+#OPS{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 20px;
+    text-align: center;
+}
+#OP1{
+    padding: 15px;
+    border: 1px solid #FDFFFF;
+    border-radius: 15px;
+    width: auto;
+}
+#OP2{
+    padding: 15px;
+    border: 1px solid #FDFFFF;
+    border-radius: 15px;
+    width: auto;
+}
+#OP3{
+    padding: 15px;
+    border: 1px solid #FDFFFF;
+    border-radius: 15px;
+    width: auto;
+}
+section {
+    width: 80%;
+    float: left;
+    background-color: #280000;
+    padding: 15px;
+    color: #FDFFFF;
+    
+}
+aside#der {
+    width: 20%;
+    float: left;
+    background-color: #570000;
+    border-left: 0px solid white;
+    padding: 5px;
+    color: #FDFFFF;
+}
+
+aside#izq {
+    width: 20%;
+    float: left;
+    background-color: #570000;
+    border-right: 0px solid white;
+    padding: 5px;
+    color: #FDFFFF;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #B10F2E;
+    color: #FDFFFF;
+
+}
+.contenedor {
+    display: flex;
+}
+/*https://coolors.co/fdffff-b10f2e-570000-280000-de7c5a*/
